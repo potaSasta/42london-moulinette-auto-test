@@ -129,11 +129,16 @@ Done rm -rf tools
 ```
 
 
-### (Note the errors;
+### Note the errors;
 ```
 !!!! ERROR in work/ex00/main (line 6): '13! (1932053504 vs 0) -> 0'
 !!!! ERROR in work/ex01/main (line 6): '13! (1932053504 vs 0) -> 0'
 work/ex02/main good!
 !!!! ERROR in work/ex03/main: expected 8 lines, got 0
 ```
-these definitley wont pass, the others MIGHT
+ex00,01 and 03 definitley wont pass, the others MIGHT
+
+
+### ft_putchar
+if your file contains a definition of ft_putchar remove it and add the protoype (simplest way is comment the body of putchar and add a ; on the end of the declaration) or you can rename it throughout your code.
+Basically these tests are compiled with a file containing ft_putchar so the declarations clash
