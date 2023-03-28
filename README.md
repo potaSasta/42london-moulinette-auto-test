@@ -3,10 +3,28 @@
 
 A tool for quickly test solutions for the piscine exercises.
 
+
+
+
 ## Usage
 1. Clone 42-moulinette-auto-test
 2. Go inside 42-moulinette-auto-test
 4. Run `./run.sh <day_repo> <day_number>`<br>
+
+## gh repo
+``` (base) potz-pop@pop-os:~/piscine/c05$ gh repo create
+? What would you like to do? Push an existing local repository to GitHub
+? Path to local repository .
+? Repository name c05
+? Description c05
+? Visibility Private
+✓ Created repository potaSasta/c05 on GitHub
+? Add a remote? Yes
+? What should the new remote be called? origin
+✓ Added remote git@github.com:potaSasta/c05.git
+? Would you like to push commits from the current branch to "origin"? Yes
+```
+
 
 ## Example workflow
 ```
