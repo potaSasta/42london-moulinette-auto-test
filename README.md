@@ -27,7 +27,9 @@ A tool for quickly test solutions for the piscine exercises.
 
 
 ## Example workflow
-In your local 42london-moulinette-auto-test folder enter `./run.sh <git_repo> <project_number>`\ne.g:
+In your local 42london-moulinette-auto-test folder enter `./run.sh <git_repo> <project_number>`\ 
+
+### e.g:
 `./run.sh git@github.com:potaSasta/c05.git 05`
 
 you should get output similar to this;
