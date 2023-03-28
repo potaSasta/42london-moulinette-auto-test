@@ -140,5 +140,7 @@ ex00,01 and 03 definitley wont pass, the others MIGHT
 
 
 ### ft_putchar
-if your file contains a definition of ft_putchar remove it and add the protoype (simplest way is comment the body of putchar and add a ; on the end of the declaration) or you can rename it throughout your code.
+if your file contains a definition of ft_putchar remove it and add the protoype  
+(simplest way is comment the body of putchar and add a ; on the end of the declaration)  
+or you can rename it throughout your code.  
 Basically these tests are compiled with a file containing ft_putchar so the declarations clash
