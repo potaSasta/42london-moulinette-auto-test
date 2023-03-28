@@ -131,10 +131,16 @@ Done rm -rf tools
 
 ### Note the errors;
 ```
+Start check_all.sh
 !!!! ERROR in work/ex00/main (line 6): '13! (1932053504 vs 0) -> 0'
 !!!! ERROR in work/ex01/main (line 6): '13! (1932053504 vs 0) -> 0'
 work/ex02/main good!
 !!!! ERROR in work/ex03/main: expected 8 lines, got 0
+work/ex04/main good!
+work/ex05/main good!
+work/ex06/main good!
+work/ex07/main good!
+End check_all.sh
 ```
 ex00,01 and 03 definitley wont pass, the others MIGHT
 
