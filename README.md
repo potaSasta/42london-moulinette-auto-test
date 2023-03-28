@@ -27,7 +27,7 @@ A tool for quickly test solutions for the piscine exercises.
 
 
 ## Example workflow
-In your local 42london-moulinette-auto-test folder enter ./run.sh <git_repo> <project_number> e.g:
+In your local 42london-moulinette-auto-test folder enter `./run.sh <git_repo> <project_number>`\ne.g:
 `./run.sh git@github.com:potaSasta/c05.git 05`
 
 you should get output similar to this;
@@ -128,8 +128,10 @@ Done rm -rf tools
 
 
 ### (Note the errors;
-`!!!! ERROR in work/ex00/main (line 6): '13! (1932053504 vs 0) -> 0'
+```
+!!!! ERROR in work/ex00/main (line 6): '13! (1932053504 vs 0) -> 0'
 !!!! ERROR in work/ex01/main (line 6): '13! (1932053504 vs 0) -> 0'
 work/ex02/main good!
-!!!! ERROR in work/ex03/main: expected 8 lines, got 0`
+!!!! ERROR in work/ex03/main: expected 8 lines, got 0
+```
 these definitley wont pass, the others MIGHT
