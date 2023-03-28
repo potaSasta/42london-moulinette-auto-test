@@ -14,7 +14,7 @@ echo "Done git clone"
 
 echo "<---->"
 echo "Start spawn.pl"
-./spawn.pl day$2 config_d$2.pl
+./spawn.pl day$2 config_c$2.pl
 echo "End spawn.pl"
 
 
@@ -52,3 +52,5 @@ echo "<---->"
 echo "Start rm -rf tools"
 rm -rf tools
 echo "Done rm -rf tools"
+
+
