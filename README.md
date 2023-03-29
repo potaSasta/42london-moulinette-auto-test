@@ -18,7 +18,7 @@ Keep on swimming guys!!
 
 ## gh repo
 Following instructions are for github and assume you have already run `ssh-keygen` and linked your github account  
-Navigate to your project directory
+Navigate to your project directory, in this case I'm testing c05;
 ``` bash 
 git init
 git add .
