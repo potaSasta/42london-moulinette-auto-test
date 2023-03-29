@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Git url arg: $1"
-echo "Day arg: $2"
+echo "Project arg: $2"
 
 [[ -z "$1" ]] && { echo "Error: Git URL not found"; exit 1; }
 [[ -z "$2" ]] && { echo "Error: Day not found"; exit 1; }

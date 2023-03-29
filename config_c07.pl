@@ -88,14 +88,6 @@ size is 0
 ';
 ====
 
-=begin comment
-
-missing testcases for ex03
-
-=end comment
-=cut
-
-
 
 ex04
 char* ft_convert_base(char* nbr, char* base_from, char* base_to)
