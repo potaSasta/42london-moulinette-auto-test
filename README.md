@@ -50,7 +50,7 @@ e.g: `./run.sh git@github.com:potaSasta/c05.git 05`
 you should get output similar to this;
 
 
-```
+```bash
 Git url arg: git@github.com:potaSasta/c05.git
 Project arg: 05
 <---->
