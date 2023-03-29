@@ -50,8 +50,9 @@ e.g: `./run.sh git@github.com:potaSasta/c05.git 05`
 you should get output similar to this;
 
 
-```Git url arg: git@github.com:potaSasta/c05.git
-Day arg: 05
+```
+Git url arg: git@github.com:potaSasta/c05.git
+Project arg: 05
 <---->
 Start git clone
 Cloning into 'day05'...
@@ -59,7 +60,7 @@ remote: Enumerating objects: 24, done.
 remote: Counting objects: 100% (24/24), done.
 remote: Compressing objects: 100% (11/11), done.
 remote: Total 24 (delta 8), reused 24 (delta 8), pack-reused 0
-Receiving objects: 100% (24/24), 1.33 MiB | 2.19 MiB/s, done.
+Receiving objects: 100% (24/24), 1.33 MiB | 652.00 KiB/s, done.
 Resolving deltas: 100% (8/8), done.
 Done git clone
 <---->
@@ -104,7 +105,6 @@ preparing ex07/ft_find_next_prime
 mirroring into work/ex07/ft_find_next_prime.c
 main at work/ex07/main.c
 check.pl at work/ex07/check.pl
-invalid exercise name =begin comment at ./spawn.pl line 282.
 End spawn.pl
 <---->
 Start build.sh
@@ -141,6 +141,7 @@ Done rm -rf work
 <---->
 Start rm -rf tools
 Done rm -rf tools
+
 ```
 
 
