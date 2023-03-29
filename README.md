@@ -1,18 +1,28 @@
-# 42-moulinette-auto-test
+# 42london-moulinette-auto-test
+## 2023 piscine
 
 
-A tool for quickly test solutions for the piscine exercises.
-
+A tool for quickly testing solutions for the London March 2023 piscine exercises. 
+All tests are pulled from https://github.com/mirror12k/42us-stupidity.git and framework provided by https://github.com/KDereshev/42-moulinette-auto-test.git  
+I've just reworked the order of the excercises and made some minor tweaks  
+NOTE: This is in no way guarentees Moullinette will pass and I know for a fact that some of these tests will give false positives. However it will give an indication that you are on the right path.  
+Keep on swimming guys!!
 
 
 
 ## Usage
-1. Clone 42-moulinette-auto-test
-2. Go inside 42-moulinette-auto-test
-4. Run `./run.sh <day_repo> <day_number>`<br>
+1. Clone 42london-moulinette-auto-test to a local directory
+3. Push each project folder to an independent remote git (instructions below)
+2. Navigate to 42london-moulinette-auto-test
+4. Run `./run.sh <git_repo> <project_num>`<br>
 
 ## gh repo
-``` (base) potz-pop@pop-os:~/piscine/c05$ gh repo create
+Following instructions are for github and assume you have already run `ssh-keygen` and linked your github account
+``` 
+gh repo create
+```
+
+```
 ? What would you like to do? Push an existing local repository to GitHub
 ? Path to local repository .
 ? Repository name c05
@@ -150,3 +160,20 @@ if your file contains a definition of ft_putchar remove it and add the protoype
 (simplest way is comment the body of putchar and add a ; on the end of the declaration)  
 or you can rename it throughout your code.  
 Basically these tests are compiled with a file containing ft_putchar so the declarations clash
+
+## Missing tests:
+|project|missing testcase|
+|---|---|
+|c00|OK|
+|c01|OK|
+|c02|OK|
+|c03|OK|
+|c04|OK|
+|c05|ex08 10-queens|
+|c06|OK|
+|c07|ex03 ft_strjoin|
+|c08|ex04 ft_strs_to_tab |
+|c09|NONE|
+|c10|NONE|
+|c11| ex05 do-op, ex06 ft_sort_string_tab, ex07 ft_advanced_sort_string_tab|
+|c12| ex05 ft_list_push_strs, ex16 ft_sorted_list_insert, ex17 ft_sorted_list_merge|
