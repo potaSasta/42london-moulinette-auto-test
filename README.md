@@ -146,7 +146,7 @@ Done rm -rf tools
 
 
 ### Note the errors;
-```
+```bash
 Start check_all.sh
 !!!! ERROR in work/ex00/main (line 6): '13! (1932053504 vs 0) -> 0'
 !!!! ERROR in work/ex01/main (line 6): '13! (1932053504 vs 0) -> 0'
