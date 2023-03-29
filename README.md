@@ -1,5 +1,5 @@
 # 42london-moulinette-auto-test
-## 2023 piscine
+### 2023 piscine
 
 
 A tool for quickly testing solutions for the London March 2023 piscine exercises. 
@@ -17,8 +17,12 @@ Keep on swimming guys!!
 4. Run `./run.sh <git_repo> <project_num>`<br>
 
 ## gh repo
-Following instructions are for github and assume you have already run `ssh-keygen` and linked your github account
-``` 
+Following instructions are for github and assume you have already run `ssh-keygen` and linked your github account  
+Navigate to your project directory
+``` bash 
+git init
+git add .
+git commit
 gh repo create
 ```
 
@@ -34,7 +38,10 @@ gh repo create
 ✓ Added remote git@github.com:potaSasta/c05.git
 ? Would you like to push commits from the current branch to "origin"? Yes
 ```
-
+finally
+```bash
+git push
+```
 
 ## Example workflow
 In your local 42london-moulinette-auto-test folder enter `./run.sh <git_repo> <project_number>`
@@ -156,8 +163,14 @@ ex00,01 and 03 definitley wont pass, the others MIGHT
 
 
 ### ft_putchar
-if your file contains a definition of ft_putchar remove it and add the protoype  
-(simplest way is comment the body of putchar and add a ; on the end of the declaration)  
+If your file contains a definition of ft_putchar remove it and add the protoype.  
+Simplest way is comment the body of your ft_putchar and add a ; on the end of the declaration
+``` C
+void  ft_putchar(char c);
+/*{
+	write(1, &c, 1);
+}*/
+```
 or you can rename it throughout your code.  
 Basically these tests are compiled with a file containing ft_putchar so the declarations clash
 
